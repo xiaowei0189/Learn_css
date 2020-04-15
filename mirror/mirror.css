@@ -1,0 +1,36 @@
+body {
+  background: #68cdd5;
+}
+
+@media screen and (min-width: 1024px) {
+  .text {
+    width: 70vw; height: 10rem; position: absolute; top: 40%; left: 50%;
+    transform: translate(-50%); color: white; font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .text {
+    width: 70vw; height: 10rem; position: absolute; top: 40%; left: 50%;
+    transform: translate(-50%); color: white;
+  }
+}
+
+.logo {
+  width: 13rem; height: 8.15rem; position: absolute;
+  top: 20%; left: 50%; transform: translate(-50%);
+}
+
+.back_off {
+  float: left; background: url(images/back.png); width: 2rem; height: 2rem;
+  border: none;  background-size: cover;
+}
+ 
+.bottom_left {
+  width: 4rem; height: 4rem; position: absolute; left: 15vw; top: 75%;
+}
+
+.bottom_right {
+  width: 3.28rem; height: 4.18rem; position: absolute; right: 15vw; top: 75%;
+}
+
